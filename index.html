@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phones</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
+    <div class="addnewUser">
+        <form id="addnewUserForm">
+            <input type="url" placeholder="phone-url" id="newUrl">
+            <input type="text" placeholder="phone-name" id="newPhone">
+            <input type="text" placeholder="price" id="newPrice">
+            <select name="role" id="newUserRole">
+                <option value="0">Apple</option>
+                <option value="1">Samsung</option>
+            </select>
+            <input type="submit" placeholder="Elave et">
+        </form>
+    </div>
 
 <div class="Apple-container">
 
@@ -30,11 +45,13 @@
 </div>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.9.0/axios.min.js"
      integrity="sha512-FPlUpimug7gt7Hn7swE8N2pHw/+oQMq/+R/hH/2hZ43VOQ+Kjh25rQzuLyPz7aUWKlRpI7wXbY6+U3oFPGjPOA==" 
      crossorigin="anonymous"
      referrerpolicy="no-referrer"></script>
+     
     <script src="./app.js"></script>
 </body>
 </html>
