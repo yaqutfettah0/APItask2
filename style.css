@@ -1,0 +1,61 @@
+.Apple-container {
+    h1 {
+        color: rgb(77, 77, 77);
+        text-align: center;
+    }
+    .boxs {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .box {
+        border: 3px solid rgb(122, 122, 122);
+        background-color: rgb(122, 122, 122);
+        border-radius: 20px;
+        transition: 0.5s all ease;
+        width: 60%;
+        margin: 30px auto;
+
+        p {
+            color: white;
+        }
+    }
+
+    .box:hover {
+        background-color: rgb(206, 205, 205);
+        transform: rotate(1.04);
+
+        p {
+            color: black;
+        }
+    }
+}
+
+.Samsung-container {
+    h1 {
+        color: rgb(77, 77, 77);
+        text-align: center;
+    }
+    .boxs {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .box {
+        border: 3px solid rgb(122, 122, 122);
+        border-radius: 20px;
+        background-color: rgb(122, 122, 122);
+        width: 60%;
+        margin: 30px auto;
+
+        p {
+            color: white;
+        }
+    }
+
+    .box:hover {
+        background-color: rgb(206, 205, 205);
+
+        p {
+            color: black;
+        }
+    }
+}
